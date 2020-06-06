@@ -1,0 +1,35 @@
+1.I imported tk inter pakage to create a GUI in puthin as pointed in the exerccise contents.
+
+2.I defined a class named UpdateLabel containing the whole applliaction: its attributes, functions etc.
+
+3.Now, I am defining the class constructor method.This method is automaticly invoked every time the UpdateLabel() objectis created.
+
+4.I am writing the command to open the window and to set the window title.
+
+5.I am setting up a window dimension.
+
+6.I am using a grid layout inside my window. This kind of layout organizes widgets in a table-like structure in the parent widget.
+
+7.I am adding the text label widget to the window. The text displayed using thois label will be: "Type some text here: "
+
+8.Then I am locating my label in the row number 0 and column number 0 of the grid layout.
+
+9.Now, I am creating entry text field, where the user can input some text to update the label. The width of this text field is 34.
+
+10.In the next two lines of code I am defining the UpdateButton, which once clicked changes the bLabel(not defined yet).
+
+11.On this button appears "UPDATE"word, when is clicked its colour changes to red, it has width equal to 12 and height equal to 2. When this button is clicked the updateText action is performed. I attached this label to window in grid layout on position 1,0.
+
+12.The next two lines of code defines one more label. This label named bLabel will be that one changed by the user's interaction with the application via "UPDATE" button
+
+13.The text displayed via this label is "Change me...", of course until the user press the "UPDATE". This label is also attached to the grid layout.
+
+14.The next command is used to draw the window and start the application.
+
+15.The next step is to define the action that is performed onece "UPDATE" button is clicked.
+
+16.The updateText function changes the text displayed on the label using config method for the label. The get method is used to source the text from the UserEntry filed. This value is assigned to the text value of the bLabel.
+
+	This can be also achived by using the StringVar as indicated in the exercise description. I prefered my solution because it is a lot simpler to implement and more proffesional.
+
+17.The following comand creates an instance of the UpdateLabel class. This command can be removed from here and pasted to the Python shell with the same result.
